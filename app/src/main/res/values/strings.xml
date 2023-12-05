@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hang</string>
+    <string-array name="destination">Where Are You Hanging
+      <item>Boston</item>
+      <item>Miami</item>
+      <item>Washington DC</item>
+    </string-array>
+    <string name="btSearch">See Whats Hanging</string>
+    <string name="tv2Tittle">How Do you Wanna Hang?</string>
+    <string name="btEat1">Eat</string>
+    <string name="btExcercise1">Exercise</string>
+    <string name="btEat2">Eat</string>
+    <string name="btExcercise2">Exercise</string>
+    <string name="rGroup">Where</string>
+    <string name="btLets">Let\'s Hang</string>
+    <string name="btEat3">Eat</string>
+    <string name="btExcercise3">Exercise</string>
+    <string name="im_oodME"></string>
+    <string name="im_BE"></string>
+    <string name="im_MEX"></string>
+    <string name="Im_BEX"></string>
+    <string name="im_whatME"></string>
+    <string name="im_whatBE"></string>
+    <string name="btLLis">Let\'s Listen</string>
+    <string name="btLList">Let\'s Listen</string>
+</resources>
