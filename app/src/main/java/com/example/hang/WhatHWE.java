@@ -1,5 +1,6 @@
 package com.example.hang;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,16 +9,13 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-public class WhatHBE extends AppCompatActivity {
-
-ListView listView;
+public class WhatHWE extends AppCompatActivity {
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.whathbe);
-        String[] eatery = new String[]{"1928 Beacon Hill ", "Mamma Maria","Grill 23 & Bar", "O Ya","Woods Hill Pier 4", "Bistro du Midi"};
+        setContentView(R.layout.whathwe); String[] eatery = new String[]{"Huncho House ", "Opal","Thip Khao", "Makan","Rooster & Owl", "Kappo DC"};
         listView = findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id. text1, eatery);
         listView.setAdapter(adapter);
@@ -26,25 +24,26 @@ ListView listView;
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch(position){
                     case 0:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156529/MstjC5Gc")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197295/y5jU1VDv")));
                         break;
                     case 1:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156537/bPnUEjf7")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197310/5gSPlcPf")));
                         break;
                     case 2:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156627/eMWfoND0")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197321/CJcMmsqy")));
                         break;
                     case 3:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156636/n5kfW3HW")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197340/kSzTf9kx")));
                         break;
                     case 4:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156639/IwDkwQ7V")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197347/pD3cArS3")));
                         break;
                     case 5:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98156643/R9Nuj2nm")));
+                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://groupme.com/join_group/98197382/ju1ltHzJ")));
 
                 }
             }
         });
     }
 }
+

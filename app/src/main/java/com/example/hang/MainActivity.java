@@ -25,9 +25,13 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this, WhereHB.class));
                 } else if (selected.equals("Miami")) {
                     startActivity(new Intent(MainActivity.this, WhereHM.class));
-                }
+                } else if (selected.equals("Washington DC")) {
+                    startActivity(new Intent(MainActivity.this, WhereHW.class));
 
                 }
+
+
+            }
 
              });
     }

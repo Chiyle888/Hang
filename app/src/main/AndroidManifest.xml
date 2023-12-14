@@ -31,6 +31,15 @@
             android:name=".WhatHBEX"
             android:exported="false" />
         <activity
+            android:name=".WhatHWEX"
+            android:exported="false" />
+        <activity
+            android:name=".WhatHWE"
+            android:exported="false" />
+        <activity
+            android:name=".WhereHW"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
